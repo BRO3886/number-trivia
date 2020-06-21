@@ -19,6 +19,5 @@ class GetRandomNumberTrivia implements UseCase<NumberTrivia, NoParams> {
 
 class NoParams extends Equatable {
   @override
-  // TODO: implement props
   List<Object> get props => null;
 }
