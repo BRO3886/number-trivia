@@ -122,7 +122,6 @@ void main() {
         httpClientSendSuccess();
         //act
         final result = await remoteDataSourceImpl.getRandomNumberTrivia();
-        ;
         //assert
         expect(result, equals(tNumberTriviaModel));
       },
