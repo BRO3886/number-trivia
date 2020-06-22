@@ -33,7 +33,7 @@ dependencies:
   flutter_bloc:
   equatable:
   dartz:
-  connectivity:
+  data_connection_checker:
   http:
   shared_preferences:
 
