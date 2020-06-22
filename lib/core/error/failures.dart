@@ -11,6 +11,5 @@ class ServerFailure extends Failure {
 
 class CacheFailure extends Failure {
   @override
-  // TODO: implement props
   List<Object> get props => null;
 }
